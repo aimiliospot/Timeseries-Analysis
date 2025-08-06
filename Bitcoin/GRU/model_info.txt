@@ -1,0 +1,5 @@
+Best model found GRU:
+Number of Layers: 0
+Units: 50
+Activation: tanh
+Smallest Validation Mean Absolute Error: 0.002486294135451317

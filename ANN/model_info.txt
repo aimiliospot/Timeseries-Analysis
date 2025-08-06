@@ -1,0 +1,5 @@
+Best model found ANN:
+Number of Layers: 0
+Units: 50
+Activation: relu
+Smallest Validation Mean Absolute Error: 0.010915334336459637

@@ -1,0 +1,23 @@
+from keras.models import load_model
+loaded_model = load_model ('best_model_SimpleRNN_150_tanh.keras')
+
+loss, mae = loaded_model.evaluate(X_valid, y_valid)
+
+print("Validation Loss:", loss)
+print("Validation Mean Absolute Error:", mae)
+
+y_pred = loaded_model.predict(X_valid)
+import matplotlib.pyplot as plt
+
+# Assuming timestamps are available for both y_pred and y_valid
+timestamps = range(len(y_valid))
+
+# Plot y_pred vs y_valid
+plt.figure(figsize=(10, 6))
+plt.plot(timestamps, y_valid, label='Actual', color='blue')
+plt.plot(timestamps, y_pred, label='Predicted', color='red')
+plt.title('Actual vs Predicted Time Series')
+plt.xlabel('Time')
+plt.ylabel('Value')
+plt.legend()
+plt.show()

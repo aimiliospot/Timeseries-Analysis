@@ -1,0 +1,5 @@
+Best model found ANN:
+Number of Layers: 1
+Units: 100
+Activation: tanh
+Smallest Validation Mean Absolute Error: 0.0026683330070227385

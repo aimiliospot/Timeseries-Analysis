@@ -1,0 +1,5 @@
+Best model found LSTM:
+Number of Layers: 2
+Units: 50
+Activation: tanh
+Smallest Validation Mean Absolute Error: 0.0024633833672851324

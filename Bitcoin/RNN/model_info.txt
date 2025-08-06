@@ -1,0 +1,5 @@
+Best model found SimpleRNN:
+Number of Layers: 3
+Units: 50
+Activation: tanh
+Smallest Validation Mean Absolute Error: 0.002493354259058833
