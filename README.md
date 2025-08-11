@@ -6,7 +6,7 @@ In the first phase of the project, these forecasting algorithms are applied to s
 
 ## Report
 
-[Final Report](https://raw.githubusercontent.com/aimiliospot/ML-Project-2/main/Potoupnis_Karachalios_ML_Project2.pdf)
+[Final Report](https://github.com/aimiliospot/Timeseries-Analysis/blob/main/Report.pdf)
 
 
 
